@@ -10,7 +10,6 @@ import select
 import socket
 import termios
 import tty
-from paramiko.py3compat import u as unicode_convert
 
 
 def open_shell(connection, remote_name='SSH server'):
